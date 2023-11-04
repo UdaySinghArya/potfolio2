@@ -11,3 +11,211 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.custom-nav-links {
+  margin-left: 800px;
+}
+
+.custome-nav1 {
+  background-color: #17171a;
+}
+
+.nav-link {
+  border-radius: 50px;
+  /* Round the corners of the links */
+  transition: background-color 0.3s, color 0.3s;
+  /* Smooth transition effect */
+}
+
+.nav-link:hover {
+  background-color: rgb(125, 196, 218);
+  /* Background color on hover */
+  color: #2b2727;
+  /* Text color on hover */
+
+}
+
+.name {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  color: white;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Maintain image aspect ratio */
+}
+
+.custom-about {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+}
+
+.custom-about-border {
+  border: 3px solid black;
+}
+
+.para-font {
+  font-size: 20px;
+}
+
+.project1 {
+  color: rgb(136, 170, 214);
+}
+
+.custom-hr {
+  border: 2px solid #000;
+  /* Black border */
+  background-color: #6a78f5e3;
+  /* Black background color */
+  height: 2px;
+  /* Adjust the height as needed */
+}
+
+.equal-height-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.uses {
+  text-align: center;
+}
+
+.equal-card {
+  height: 100%;
+}
+
+.custom-hr-details {
+  border: 1px solid #000;
+  /* Black border */
+  background-color: #6a78f5e3;
+  /* Black background color */
+  height: 2px;
+  /* Adjust the height as needed */
+}
+
+.circle-square {
+  width: 250px;
+  height: 30px;
+  background-color: #101111;
+  /* Background color for the circle square */
+  border-radius: 20px;
+  /* Adjust the border-radius to control the roundness */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  /* Text color inside the circle square */
+  font-size: 18px;
+}
+
+.custom-contactus-card-title {
+  font-size: 60px;
+}
+
+/* .custom-about-content {
+  background-color: #EDF6FF;
+  border: 2px solid black;
+} */
+
+/* styles.css */
+.about-body {
+  background: linear-gradient(to right, #44656C, #9F8876, #FC9550);
+}
+.about-contentbackground{
+  background: linear-gradient(to right, #44656C, #9F8876, #FC9550);
+  border: none;
+}
+.about-card-border{
+  border:none;
+}
+.about-imagetext{
+  background: linear-gradient(to right, #44656C, #9F8876, #FC9550);
+  border: none;
+}
+.about-card-img{
+  border: none;
+}
+.project-cardbody{
+  background: linear-gradient(to right, #5B5150, #A2D5AC, #E6EFC2);
+  border: none;
+}
+.project-cardrow{
+  background: linear-gradient(to right, #215273, #55C595, #CFF4D2);
+  border: none;
+}
+.project-body{
+  background: linear-gradient(to right, #5B5150, #A2D5AC, #E6EFC2);
+  border: none;
+}
+.custom-img {
+  height: 280px;
+  width: 280px;
+}
+
+.card-size {
+  height: 350px;
+  width: 280px;
+}
+
+.centered-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 150px;
+  /* Set a minimum height for the container */
+}
+
+.custom-img4 {
+  height: 200px;
+  width: 280px;
+}
+
+.card-size4 {
+  height: 300px;
+  width: 280px;
+}
+
+.home-leftcard-title {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 45px;
+}
+
+.centered-cards {
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-body {
+  background: linear-gradient(to right, #2a1177, #6d52f4, #DDC9FF);
+  border: none;
+}
+
+.home-leftcard {
+  background: linear-gradient(to right, #2a1177, #6d52f4, #DDC9FF);
+  border: none;
+}
+
+.home-leftcardcontent {
+  background: linear-gradient(to right, #2a1177, #6d52f4, #DDC9FF);
+  border: none;
+}
+.home-rightcard{
+  background: linear-gradient(to right, #2a1177, #6d52f4, #DDC9FF);
+  border: none;
+}
+.contact-body{
+  background: linear-gradient(to right, #2A2F57, #A55D6B, #FC511D);
+  height: 600px;
+}
+.contact-rightcard{
+  background: linear-gradient(to right, #2A2F57, #A55D6B, #FC511D);
+}
+.contact-carddetails{
+  background: linear-gradient(to right, #2A2F57, #A55D6B, #FC511D);
+}
